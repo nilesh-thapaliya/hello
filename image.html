@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imge</title>
+</head>
+
+<style>
+
+.main{
+    position: relative;
+    width: 400px;
+}
+
+.both{
+    position: absolute;
+    top: 0;
+    height: 300px;
+    width: 50px; 
+}
+
+.left{
+    left: 0;
+
+}
+
+.right{
+    right: 0;
+}
+
+
+
+</style>
+<body>
+    
+
+<div class="main">
+    <div onclick="left()" class="left both"></div>
+    <div onclick="right()" class="right both"></div>
+<img height="300px" width="400px" src= "/asd.png" alt="">
+
+</div>
+
+
+
+<script>
+    function left(){
+        window.location.href="https://www.facebook.com/"
+    }
+    function right(){
+        window.location.href="https://www.google.com/"
+    }
+</script>
+
+</body>
+</html>
